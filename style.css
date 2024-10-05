@@ -25,6 +25,7 @@ header{
 }
 .nav_left h1{
     font-size: 2rem;
+    margin-top: 2rem;
 }
 .nav_right ul{
    display: flex;
@@ -181,8 +182,41 @@ header{
     margin-top: 1rem;
     margin-bottom: .5rem;
 }
+#resume_button{
+    margin-left: 40rem;
+    
+}
 /* Skill section end */
-/* main section end */
+/* Footer start */
+.footer{
+    background-color: #e9d9906e;
+    display: flex;
+    margin: 2rem;
+    padding: 4rem;
+}
+.footer p{
+    margin: 1rem 0;
+}
+.footer__left,.footer__right{
+  flex: 1;
+  padding: 2rem;
+}
+.socialmedia{
+    display: flex;
+    gap: 2rem;
+   
+}
+input{
+    margin: .5rem;
+    padding: .8rem;
+}
+.msg{
+    padding-bottom: 3rem;
+}
+.footer-btn{
+    margin-top: 1rem;
+}
+/* Footer end */
 
 /* Media quary */
 @media screen and (max-width:576px) {
@@ -202,7 +236,7 @@ header{
          
      }
      .my-img{
-        margin-left: 5rem;
+        margin-left: 1rem;
 
     }
     .hero__left{
@@ -235,6 +269,15 @@ header{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin: 2rem;
+    }
+    #resume_button{
+        margin-left: 14rem;
+        
+    }
+    .footer{
+        
+        flex-direction: column;
+       
     }
 
 }
